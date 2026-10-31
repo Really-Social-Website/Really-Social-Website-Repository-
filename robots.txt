@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# STAGING: replace this file when the site moves to reallysocial.media
