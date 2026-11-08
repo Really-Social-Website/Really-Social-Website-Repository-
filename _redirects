@@ -1,0 +1,4 @@
+# Curry Club landing pages
+# The home address shows the main Curry Club page (the homepage file is kept, at /index.html)
+/                 /curry-club.html                 200!
+/favouritetable   /curry-club-favouritetable.html  200
