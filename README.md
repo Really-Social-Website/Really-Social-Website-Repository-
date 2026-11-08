@@ -20,3 +20,6 @@ Open `script.js` and set:
 This site is set up as a hidden staging site. When it goes live on the main domain:
 1. Remove the `<meta name="robots" content="noindex, nofollow">` line from every page.
 2. Replace `robots.txt` with one that allows search engines.
+
+## Curry Club forms → monday.com
+`netlify/functions/submission-created.js` sends submissions from the `curry-club-christmas`, `curry-club-christmas-curry-life` and `curry-club-christmas-favouritetable` forms to the monday.com "Leads 2026" board. It needs a monday.com API token: in Netlify, go to **Site configuration → Environment variables** and add `MONDAY_API_TOKEN`. Never put the token in the code. If the token is missing or monday.com is down, the form still works; the error shows in Netlify's function logs.
